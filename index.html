@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Mind Travel</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
+    </head>
+    <body>
+        <header>
+            <nav class="nav">
+                <ul class="nav__links">
+                    <li><a class="nav-item" href="#">Home</a></li>
+                    <li><a class="nav-item" href="#">All Travels</a></li>
+                    <li><a class="nav-item" id="nav-item--mod" href="#">Travels Discount</a></li>
+                </ul>
+                <h1 class="title">Mind Travel</h1>
+            </nav>
+        </header>
+        <main>
+            <section class="section-1">
+                <h2 class="subtitle">Check our discount!</h2>
+                <article class="section-1__article">
+                    <h3>Canada</h3>
+                    <img src="./assets/img/canada.jpg" alt="canada">
+                    <p>Includes hotel and trael</p>
+                </article>
+                <article class="section-1__article">
+                    <h3>China</h3>
+                    <img src="./assets/img/china.jpg" alt="china">
+                    <p>Includes hotel and trael</p>
+                </article>
+                <article class="section-1__article">
+                    <h3>Australia</h3>
+                    <img src="./assets/img/city.jpg" alt="australia">
+                    <p>Includes hotel and trael</p>
+                </article>
+            </section>
+            <section class="section-2">
+                <h2 class="subtitle">Schedule</h2>
+                <div class="section-2__content">
+                    <ul>
+                        <li>Canada</li>
+                        <li>China</li>
+                        <li>Australia</li>
+                    </ul>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Country</th>
+                                <th>Day</th>
+                                <th>Discount</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Canada</td>
+                                <td>11/10</td>
+                                <td>20%</td>
+                            </tr>
+                            <tr>
+                                <td>China</td>
+                                <td>09/09</td>
+                                <td>10%</td>
+                            </tr>
+                            <tr>
+                                <td>Australia</td>
+                                <td>24/08</td>
+                                <td>25%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>Cohort 51</p>
+            <form action="./assets/pages/show_data.html" method="get">
+                <fieldset>
+                    <legend>You need more information?</legend>
+                    <label for="email">Email:</label>
+                    <input type="email" name="user-email" id="email">
+                    <input type="submit" value="Subscribe" id="input-submit">
+                </fieldset>
+            </form>
+            <a href="mailto:mindtravel@mh.com">mindtravel@mh.com</a>
+        </footer>
+    </body>
+</html>
